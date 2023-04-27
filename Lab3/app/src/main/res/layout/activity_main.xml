@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Full name"
+        android:background="@drawable/custom_edittext"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_below="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Phone number"
+        android:background="@drawable/custom_edittext"/>
+    <Button
+        android:id="@+id/local"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/number"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="70dp"
+        android:text="Local"/>
+    <Button
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/local"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="70dp"
+        android:text="Query"/>
+
+</RelativeLayout>
